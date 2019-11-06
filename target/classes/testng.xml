@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zuru Store Testing Suite">
+	<test name="Zuru StoreTest Cases">
+		<classes>
+			<class name="com.zurustore.qa.testcases.LoginPageTest"></class>
+			<class name="com.zurustore.qa.testcases.HomePageTest"> </class>
+			<class name="com.zurustore.qa.testcases.UploadProjectPageTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zuru Store Testing Suite]">
+  <test thread-count="5" name="Zuru StoreTest Cases(failed)">
+    <classes>
+      <class name="com.zurustore.qa.testcases.UploadProjectPageTest">
+        <methods>
+          <include name="VerifyUploadProjectTextTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.zurustore.qa.testcases.UploadProjectPageTest -->
+    </classes>
+  </test> <!-- Zuru StoreTest Cases(failed) -->
+</suite> <!-- Failed suite [Zuru Store Testing Suite] -->
