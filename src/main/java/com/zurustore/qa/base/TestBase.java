@@ -19,7 +19,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	public static WebDriverWait wait;
-	public static int i =10;
+
 
 	
 	public TestBase() {

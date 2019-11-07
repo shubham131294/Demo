@@ -40,7 +40,7 @@ public class HomePageTest extends TestBase {
     Assert.assertEquals(homePage.verifyHomePageTitile(),"Store");
 	}
 	
-	@Test(priority = 8)
+	@ Test(priority = 8)
 	public void VerifyFirstcategoryTest() {
     Assert.assertTrue(homePage.verifyFirstCat());
 	}
